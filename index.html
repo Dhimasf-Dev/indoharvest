@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- BOOTSTRAP -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+        <!-- BOOTSTRAP JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+        <!--========== BOX ICONS ==========-->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <link style="width: 100%;" rel="icon" href="./assets/img/IndoHarvest.png">
+
+        <title>IndoHarvest</title>
+    </head>
+    <body style="margin: 0; width: 100%;">
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevron-up scrolltop__icon'></i>
+        </a>
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <img style="width: 150px; height: 150px;" src="./assets/img/IndoHarvest.png" alt="logo" />
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                        <li class="nav__item"><a href="#product" class="nav__link">Product</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact us</a></li>
+
+                        <li><i class='bx bx-moon change-theme' id="theme-button"></i></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--========== HOME ==========-->
+            <section class="home" id="home">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 style="color: #09585a;" class="home__title">IndoHarvest</h1>
+                        <h2 class="home__subtitle">Try the best quality of <br> our product.</h2>
+                        <a href="#product" class="button">View Product</a>
+                    </div>
+    
+                    <img style="width: 100%; height: 100%;" src="assets/img/home-product.png" alt="" class="home__img">
+                </div>
+            </section>
+            
+            <!--========== ABOUT ==========-->
+            <section style="margin-top: -180px;" class="about section bd-container" id="about">
+                <div class="about__container  bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About us</span>
+                        <h2 class="section-title about__initial">We give you the best <br> product</h2>
+                        <p class="about__description">Our company is one of the most trusted and reliable global traders of coconut fruit, semi husked coconut, and coffee in the world. Our brand, IndoHarvest located in Indonesia and was founded by Bumi Agro Nesia Inc. In the future, we will expand more agricultural products to meet the needs of the global market and to help our local farmer.</p>
+                    </div>
+
+                    <img src="assets/img/about-us-coconut.jpg" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!--========== SERVICES ==========-->
+            <section class="services section bd-container" id="services">
+                <span class="section-subtitle">Services</span>
+                <h2 class="section-title">Our Amazing Services</h2>
+
+                <div class="services__container  bd-grid">
+                    <div class="services__content">
+                        <img style="width: 110px; margin-bottom: 25px; margin-left: 20px;" src="./assets/img/good-quality.png" alt="good-quality" />
+                        <h3 class="services__title">Excellent Product</h3>
+                        <p class="services__description">
+                            The products we offer are of the highest quality. We always carry out regular checks on the quality of our products. 
+                            We also provide the best packing for delivery or according to your request.
+                        </p>
+                    </div>
+
+                    <div class="services__content">
+                        <img style="width: 110px; margin-bottom: 25px;" src="./assets/img/integration.png" alt="integrity" />
+                        <h3 class="services__title">Integrity</h3>
+                        <p class="services__description">
+                            Integrity is a value that is highly respected by IndoHarvest because in every step we take, 
+                            we are always honest and committed to our customers and suppliers to provide the best.
+                        </p>
+                    </div>
+
+                    <div class="services__content">
+                        <img style="width: 110px; margin-bottom: 25px;" src="./assets/img/handshake.png" alt="handsake" />
+                        <h3 class="services__title">Customer oriented</h3>
+                        <p class="services__description">
+                            We always focus On providing the best service to our customers, therefore we always offer the value needed by our customers because 
+                            we believe a good company is a company that can make good relation with customers.
+                        </p>
+                </div>
+            </section>
+
+            <!--========== MENU ==========-->
+            <section class="menu section bd-container" id="product">
+                <span class="section-subtitle">Product</span>
+                <h2 class="section-title">The Best Product</h2>
+
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="menu__container">
+                                <div class="menu__content" style="padding: 100px 50px;">
+                                    <img src="./assets/img/young-coconut.png" class="menu__img" alt="..." style="width: 350px;">
+                                    <h4 class="menu__name">Fresh Young Coconut</h4>
+                                    <div class="menu__detail">
+                                        Young coconut is the name for coconut (Cocos nucifera) with green trunk. 
+                                        Young coconut water is very refreshing and has many benefits for our body. The flesh of the fruit is not as thick as
+                                        old coconut which is usually used for coconut milk, young coconut can be consumed raw and the texture of young coconut 
+                                        meat is very soft and delicious. We only sell the best quality of fresh young coconuts,
+                                        the weight of fresh young coconuts is about 0.5 – 1.2 kg per piece (can be selected according to customer requests).
+                                    </div>
+                                    <a style="position: absolute; z-index: 2;" href="https://wa.wizard.id/034310" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                                </div>     
+                           </div>                
+                        </div>
+                        <div class="carousel-item">
+                            <div class="menu__container">
+                                 <div class="menu__content" style="padding: 100px 50px;">
+                                   <img src="./assets/img/mature-coconut.png" class="menu__img" alt="..." style="width: 250px; "> 
+                                    <h4 class="menu__name">Fresh Mature Coconut</h4>
+                                    <div class="menu__detail">
+                                        Unlike young coconut, mature coconut has brown shell. Mature coconut water does not contain as
+                                        much sugar as young coconut water but the flesh mature coconut is thicker. One of the benefits of the water of mature coconut is to prevent diabetes. 
+                                        Mature coconut meat can be cooked or used as coconut oil. The maturer the coconut, the higher the fat content. Usually, this mature coconut is bought to be processed into copra and coconut oil. 
+                                        We only sell the best quality of fresh mature coconuts, 
+                                        the weight of fresh mature coconuts is about 0.5 – 1.2 kg per piece (can be selected according to customer requests).
+                                    </div>
+                                    <a style="position: absolute; z-index: 2;" href="https://wa.wizard.id/034310" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                                </div>     
+                           </div>  
+                        </div>
+                        <div class="carousel-item">
+                            <div class="menu__container">
+                                 <div class="menu__content" style="padding: 100px 50px;">
+                                   <img src="./assets/img/husked-coconut.png" class="menu__img" alt="..." style="width: 300px;">
+                                    <h4 class="menu__name">Semi-Husked Coconut</h4>
+                                    <div class="menu__detail">
+                                        Semi-husked coconut is a fully matured coconuts but while de-husking, the husk is left intact 
+                                        over the “eyes” of the coconut. The “eyes” of the coconut is a sensitive area, and by protecting it 
+                                        we can increase the shelf life of the coconut as the area susceptible to decay is protected. 
+                                    </div>
+                                    <a style="position: absolute; z-index: 2;" href="https://wa.wizard.id/034310" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                                </div>     
+                           </div>  
+                        </div>
+                        <div class="carousel-item">
+                            <div class="menu__container">
+                                 <div class="menu__content" style="padding: 100px 50px;">
+                                   <img src="./assets/img/cocofiber.png" class="menu__img" alt="..." style="width: 150px;">
+                                    <h4 class="menu__name">Cocofiber</h4>
+                                    <div class="menu__detail">
+                                        Cocofiber is a fiber from coconut husks in dry conditions. From cocofibre products 
+                                        will produce various kinds of product derivations whose benefits are extraordinary. 
+                                        In several countries, including Indonesia, coconut husk is processed into plant fertilizer.
+                                    </div>
+                                    <a style="position: absolute; z-index: 2;" href="https://wa.wizard.id/034310" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                                </div>     
+                           </div>  
+                        </div>
+                        <div class="carousel-item">
+                            <div class="menu__container">
+                                 <div class="menu__content" style="padding: 100px 50px;">
+                                   <img src="./assets/img/robusta.png" class="menu__img" alt="..." style="width: 300px;">
+                                    <h4 class="menu__name">Robusta Coffee Bean </h4>
+                                    <div class="menu__detail">
+                                        Robusta is a type of coffee plant with the scientific name Coffea canephora. 
+                                        As the name implies, this drink extracted from Robusta coffee beans has a strong taste and tends to be more bitter than Arabica. 
+                                        We sell them in the form of green beans and will package them according to customer requests.
+                                    </div>
+                                    <a style="position: absolute; z-index: 2;" href="https://wa.wizard.id/034310" class="button menu__button"><i class='bx bx-cart-alt'></i></a>
+                                </div>     
+                           </div>  
+                        </div>          
+                    </div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span style="border: 1px solid; border-radius: 30%; ;background-color: grey;" class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span style="border: 1px solid; border-radius: 30%; ;background-color: grey;" class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </section>
+
+            <!--===== APP =======-->
+            <!-- <section class="app section bd-container">
+                <div class="app__container bd-grid">
+                    <div class="app__data">
+                        <span class="section-subtitle app__initial">App</span>
+                        <h2 class="section-title app__initial">App is aviable</h2>
+                        <p class="app__description">Find our application and download it, you can make reservations, food orders, see your deliveries on the way and much more.</p>
+                        <div class="app__stores">
+                            <a href="#"><img src="assets/img/app1.png" alt="" class="app__store"></a>
+                            <a href="#"><img src="assets/img/app2.png" alt="" class="app__store"></a>
+                        </div>
+                    </div>
+
+                    <img src="assets/img/movil-app.png" alt="" class="app__img">
+                </div>
+            </section> -->
+
+            <!--========== CONTACT US ==========-->
+            <section class="contact section bd-container" id="contact" ">
+                <div class="contact__container bd-grid">
+                    <!-- <img style="width: 120px; margin: 0" src="./assets/img/barcode.png" alt="barcode" /> -->
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's talk</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">If you are interested in our product, contact us! With 24/7 chat service.</p>
+                    </div>
+
+                    <div style="margin-top: 80px;" class="contact__button">
+                        <!-- <a href="https://wa.wizard.id/97cf8e" class="button">Contact us now</a> -->
+                        <p>
+                            <button class="btn btn-success" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                              Contact us now
+                            </button>
+                        </p>
+                        <div style="min-height: 120px; margin-top: 20px;">
+                            <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                                <div class="card card-body" style="flex-direction: row; justify-content: space-around;  width: 100% ;">
+                                    <a href="https://wa.wizard.id/034310"><img style="width: 50px;" src="./assets/img/whatsapp.png" alt="wa" /></a>
+                                    <a href="https://t.me/IndoHarvest"><img style="width: 50px;" src="./assets/img/telegram.png" alt="telegram" /></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--========== FOOTER ==========-->
+        <footer class="footer section bd-container">
+            <div class="footer__container" class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">IndoHarvest</a>
+                    <div>
+                        <img style="width: 120px; margin-top: 15px;" src="./assets/img/barcode.png" alt="barcode" />
+                    </div>
+                </div>
+
+                <div style="margin-left: -20%;" class="footer__content ">
+                    <h3 style="font-size: 18px; margin-top: 5px;" class="footer__title">BUMI AGRO NESIA Co., Ltd</h3>
+                    <!-- <a href="#" class="footer__logo">IndoHarvest</a> -->
+                    <ul style="font-size: 15px;">
+                        <li>The Mansion Jasmine Tower Bellavista</li>
+                        <li>Jl. Trembesi D, North Jakarta City</li>
+                        <li>Indonesia</li>
+                        <li>Info.IndoHarvest@Gmail.com</li>
+                    </ul>
+                </div>
+
+                <div class="footer_content">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.881217559665!2d106.85055001534641!3d-6.146652061966077!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5925c5c8579%3A0x37009d279cc05f8a!2sThe%20Mansion%20Jasmine%20Tower%20Bellavista!5e0!3m2!1sid!2sid!4v1643642471287!5m2!1sid!2sid" width="600" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; 2022 IndoHarvest. All right reserved</p>
+        </footer>
+
+        <!--========== SCROLL REVEAL ==========-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
