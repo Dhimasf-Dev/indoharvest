@@ -341,6 +341,7 @@ img{
 
 /*========== MENU ==========*/
 .menu__container{
+  height: 700px;
   row-gap: 2.5rem;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
